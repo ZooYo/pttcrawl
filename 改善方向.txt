@@ -1,0 +1,13 @@
+mine:
+1.找尋前一頁的文章
+2.儲存文章內容
+3.設推文門檻
+articles:
+處理文章標題的特殊字元
+只有推文數多的文章才下載圖片
+略過推文的圖片
+支援更多圖床網址
+多執行緒下載圖片
+
+練習:
+用 Chrome 開發者工具, 找出 Dcard 的今日熱門文章區塊, 然後取得前十篇熱門文章的標題 (提示: 每一篇熱門文章都是 class 為 PostEntry_container_ 開頭的 div, 可以用 find_all() 加上 regular expression 找出來; 標題文字被 <strong> 包圍)
